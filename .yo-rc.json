@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Tanner Goins",
+      "authorEmail": "tannergz28@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
