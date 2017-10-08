@@ -11,7 +11,7 @@ module.exports = {
   // Your bot's user token. If you don't know what that is, go here:
   // https://discordapp.com/developers/applications/me
   // Then create a new application and grab your token.
-  token: 'MzY0NTY2NTc5NjU0MDMzNDA4.DLrjmQ.zurou61uDbmEBwFdpvZXDvRCrtk',
+  token: 'MzY2NDQ5OTIyMDc1MjYyOTc3.DLtCpg.J-nEZ2xN71pJr_TJETeLokdRdko',
 
   // If this option is enabled, the bot will delete the message that triggered it, and its own
   // response, after the specified amount of time has passed.
