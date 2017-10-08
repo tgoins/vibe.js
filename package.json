@@ -21,7 +21,7 @@
     "prettier": "^1.7.0"
   },
   "scripts": {
-    "bot": "node ./lib/index.js",
+    "start": "node ./lib/index.js",
     "prepublish": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
