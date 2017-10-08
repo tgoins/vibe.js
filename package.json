@@ -28,10 +28,7 @@
     "ytdl-core": "^0.7.24"
   },
   "scripts": {
-    "start": "node ./lib/index.js",
-    "prepublish": "nsp check",
-    "pretest": "eslint .",
-    "test": "jest"
+    "start": "node ./lib/index.js"
   },
   "dependencies": {
     "node-gyp": "^3.6.2"
