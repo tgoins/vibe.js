@@ -12,8 +12,11 @@ module.exports = {
   // https://discordapp.com/developers/applications/me
   // Then create a new application and grab your token.
   token: 'MzY2NDQ5OTIyMDc1MjYyOTc3.DLtCpg.J-nEZ2xN71pJr_TJETeLokdRdko',
+  //The name of the Discord server.
   serverName: 'Testing',
+  //The name of the text channel where I should listen for commands.
   textChannel: 'bot-commands',
+  //The name of the voice channel where I will live.
   voiceChannel: 'General',
 
   // If this option is enabled, the bot will delete the message that triggered it, and its own
