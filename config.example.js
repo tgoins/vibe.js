@@ -18,6 +18,8 @@ module.exports = {
   textChannel: '',
   //The name of the voice channel where I will live.
   voiceChannel: '',
+  //The name of the role required to interact with the bot.
+  requiredRole: '',
   //Set a custom playing message
   customPlayingMessage: '',
 
