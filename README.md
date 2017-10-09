@@ -1,6 +1,10 @@
 # discord-music-bot [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > A simple music bot for Discord
 
+## Requirements
+- Linux
+- NodeJS 6.0+
+
 ## Installation
 
 Clone this repository, and run:
