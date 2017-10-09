@@ -12,6 +12,8 @@ Clone this repository, and run:
 $ npm install
 ```
 
+Then rename the `config.example.js` to `config.js` and fill in the empty fields.
+
 ## Usage
 
 ```sh
