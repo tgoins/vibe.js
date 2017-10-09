@@ -31,7 +31,8 @@
     "start": "node ./lib/index.js"
   },
   "dependencies": {
-    "node-gyp": "^3.6.2"
+    "node-gyp": "^3.6.2",
+    "youtube-search": "^1.0.10"
   },
   "lint-staged": {
     "*.js": [
