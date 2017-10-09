@@ -18,6 +18,8 @@ module.exports = {
   textChannel: '',
   //The name of the voice channel where I will live.
   voiceChannel: '',
+  //Set a custom playing message
+  customPlayingMessage: '',
 
   //YouTube Api Key required for searching by keywords. Not needed if only using a link.
   youtubeApiKey: '',
