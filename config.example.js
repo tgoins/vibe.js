@@ -14,11 +14,11 @@ module.exports = {
   token: '',
   //The name of the Discord server.
   serverName: '',
-  //The name of the text channel where I should listen for commands.
+  //The name of the text channel where I should listen for commands. If empty, will listen in all channels.
   textChannel: '',
   //The name of the voice channel where I will live.
   voiceChannel: '',
-  //The name of the role required to interact with the bot.
+  //The name of the role required to interact with the bot. If empty, all roles will be allowed.
   requiredRole: '',
   //Set a custom playing message
   customPlayingMessage: '',
