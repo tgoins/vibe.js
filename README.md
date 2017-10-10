@@ -17,7 +17,7 @@ Then rename the `config.example.js` to `config.js` and fill in the empty fields.
 ## Usage
 
 ```sh
-$ npm run bot
+$ npm start
 ```
 ## License
 
