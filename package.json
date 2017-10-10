@@ -1,6 +1,6 @@
 {
-  "name": "discord-music-bot",
-  "version": "1.3.0",
+  "name": "vibe-discord-music-bot",
+  "version": "1.4.0",
   "description": "A simple music bot for Discord",
   "homepage": "",
   "files": [
@@ -67,7 +67,7 @@
       "prettier"
     ]
   },
-  "repository": "https://github.com/tannerz28/discord-music-bot.git",
+  "repository": "https://github.com/tannerz28/vibe-discord-music-bot.git",
   "jest": {
     "testEnvironment": "node"
   },
