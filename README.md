@@ -43,7 +43,7 @@ GPL-3.0 © [Tanner Goins]()
 
 [npm-image]: https://badge.fury.io/js/vibe.js.svg
 [npm-url]: https://npmjs.org/package/vibe.js
-[travis-image]: https://travis-ci.org/tannerz28/vibe-discord-music-bot.svg?branch=master
+[travis-image]: https://travis-ci.org/tannerz28/vibe.js.svg?branch=master
 [travis-url]: https://travis-ci.org/tannerz28/vibe.js
 [daviddm-image]: https://david-dm.org/tannerz28/vibe.js.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/tannerz28/vibe.js
