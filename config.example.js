@@ -12,14 +12,14 @@ module.exports = {
   // https://discordapp.com/developers/applications/me
   // Then create a new application and grab your token.
   token: '',
-  //The name of the Discord server.
-  serverName: '',
-  //The name of the text channel where I should listen for commands. If empty, will listen in all channels.
-  textChannel: '',
-  //The name of the voice channel where I will live.
-  voiceChannel: '',
-  //The name of the role required to interact with the bot. If empty, all roles will be allowed.
-  requiredRole: '',
+  //The ID of the Discord server.
+  serverId: '',
+  //The ID of the text channel where I should listen for commands. If empty, will listen in all channels.
+  textChannelId: '',
+  //The ID of the voice channel where I will live.
+  voiceChannelId: '',
+  //The ID of the role required to interact with the bot. If empty, all roles will be allowed.
+  requiredRoleId: '',
   //Set a custom playing message
   customPlayingMessage: '',
 
