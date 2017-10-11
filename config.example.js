@@ -21,7 +21,7 @@ module.exports = {
   //The ID of the role required to interact with the bot. If empty, all roles will be allowed.
   requiredRoleId: '',
   //Set a custom playing message
-  customPlayingMessage: '',
+  customPlayingMessage: 'Vibe.js | The joy of music.',
 
   //YouTube Api Key required for searching by keywords. Not needed if only using a link.
   youtubeApiKey: '',
