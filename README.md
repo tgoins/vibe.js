@@ -1,6 +1,14 @@
 # Vibe.js [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > A simple music bot for Discord
 
+## Commands
+- play: Adds songs to queue or plays it.
+- skip: Skips current song.
+- np: Displays the currently playing song.
+- queue: Lists the songs in the queue.
+- help: Lists available commands
+- Plus a few disabled commands that may not work.
+
 ## Requirements
 - Linux
 - NodeJS 6.0+
