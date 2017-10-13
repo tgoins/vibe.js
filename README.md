@@ -1,4 +1,4 @@
-# Vibe.js [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# Vibe.js [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![JavaScript Style Guide][standard-image][standard-url]
 > A simple music bot for Discord
 
 ## Commands
@@ -30,7 +30,7 @@ $ npm start
 ```
 
 ## Versioning
-Vibe.js is developed using [Semantic Versioning](semver.org). Releases will be numbered with the format `<major>.<minor>.<patch>` with the following guidelines:
+Vibe.js is developed using [Semantic Versioning](http://semver.org). Releases will be numbered with the format `<major>.<minor>.<patch>` with the following guidelines:
 
 - Breaking backward compatibility bumps the major (and resets the minor and patch)
 - New features without breaking backward compatibility bumps the minor (and resets the patch)
@@ -47,3 +47,5 @@ GPL-3.0 © [Tanner Goins]()
 [travis-url]: https://travis-ci.org/tannerz28/vibe.js
 [daviddm-image]: https://david-dm.org/tannerz28/vibe.js.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/tannerz28/vibe.js
+[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[standard-url]: https://standardjs.com
