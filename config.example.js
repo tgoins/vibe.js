@@ -23,7 +23,7 @@ module.exports = {
   voiceChannelId: '',
   // The ID of the role required to interact with the bot. If empty, all roles will be allowed.
   requiredRoleId: '',
-  //Set a custom playing message
+  // Set a custom playing message
   customPlayingMessage: 'Vibe.js | The joy of music.',
 
   // If this option is enabled, the bot will delete the message that triggered it, and its own
