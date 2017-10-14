@@ -29,7 +29,7 @@
     "ytdl-core": "^0.7.24"
   },
   "scripts": {
-    "start": "pm2 start ./lib/index.js",
+    "start": "sudo pm2 start ./lib/index.js",
     "prepush": "standard --fix",
     "standard": "standard --fix"
   },
