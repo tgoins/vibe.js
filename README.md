@@ -6,7 +6,8 @@
 - skip: Skips current song.
 - np: Displays the currently playing song.
 - queue: Lists the songs in the queue.
-- help: Lists available commands
+- upnext: Displays the next song in the queue.
+- help: Lists available commands.
 - Plus a few disabled commands that may not work.
 
 ## Requirements
