@@ -25,6 +25,7 @@ module.exports = {
   requiredRoleId: '',
   // Set a custom playing message
   customPlayingMessage: 'Vibe.js | The joy of music.',
+  karaokeModeEnabled: false,
 
   // If this option is enabled, the bot will delete the message that triggered it, and its own
   // response, after the specified amount of time has passed.
