@@ -1,5 +1,5 @@
 # Vibe.js [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![JavaScript Style Guide][standard-image]][standard-url]
-> A simple music bot for Discord
+> A powerful music bot for Discord - Better than Mee6 and it's free.
 
 ## Commands
 - play: Adds songs to queue or plays it.
@@ -12,7 +12,7 @@
 
 ## Requirements
 - Linux
-- NodeJS 6.0+
+- Node.js 6.0+
 
 ## Installation
 > Npm module support coming soon! Not yet implemented.
