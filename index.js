@@ -1,11 +1,11 @@
 'use strict'
 
 const fs = require('fs')
-const cfg = require('../config.js')
+const cfg = require('./config.js')
 const Discord = require('discord.js')
-const Command = require('./commands/command')
-const BotState = require('./botState')
-const musicPlayer = require('./musicPlayer')
+const Command = require('./lib/commands/command')
+const BotState = require('./lib/botState')
+const musicPlayer = require('./lib/musicPlayer')
 const bot = new Discord.Client()
 musicPlayer.bot = bot
 
@@ -243,7 +243,18 @@ process.on('uncaughtException', (err) => {
   }
 })
 
-bot
-  .login(cfg.token)
-  .then(() => console.log('Running!'))
-  .catch(console.error)
+exports.run = (opts) => {
+  Object.assign(cfg, cfg, opts)
+  login()
+}
+
+if(cfg.voiceChannelId && cfg.textChannelId) {
+  login()
+}
+
+function login() {
+  bot
+    .login(cfg.token)
+    .then(() => console.log('Running!'))
+    .catch(console.error)
+}
