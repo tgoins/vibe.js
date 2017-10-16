@@ -27,7 +27,7 @@ musicPlayer.youtubeSearchOptions = youtubeSearchOptions
 
 // Load every command in the commands folder
 fs.readdirSync('./lib/commands/').forEach(file => {
-  commands.push(require('./commands/' + file))
+  commands.push(require('./lib/commands/' + file))
 })
 
 commands.push(
