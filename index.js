@@ -245,16 +245,13 @@ process.on('uncaughtException', (err) => {
 
 exports.run = (opts) => {
   Object.assign(cfg, cfg, opts)
-  login()
-}
-
-if(cfg.serverId !== '') {
-  login()
-}
-
-function login() {
   bot
     .login(cfg.token)
     .then(() => console.log('Running!'))
     .catch(console.error)
 }
+
+bot
+  .login(cfg.token)
+  .then(() => console.log('Running!'))
+  .catch(console.error)
