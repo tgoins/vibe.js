@@ -30,6 +30,32 @@ Then rename the `config.example.js` to `config.js` and fill in the empty fields.
 $ npm start
 ```
 
+Or if you are using the npm module
+
+```sh
+$ npm install --save vibe.js
+```
+Then in the JavaScript
+```javascript
+const vibejs = require('vibe.js')
+
+vibejs.run({
+  name: 'Vibe.js',
+  prefix: '!',
+  token: '',
+  youtubeApiKey: '',
+  serverId: '',
+  textChannelId: '',
+  voiceChannelId: '',
+  requiredRoleId: '',
+  customPlayingMessage: 'Vibe.js | The joy of music.',
+  deleteAfterReply: {
+    enabled: true,
+    time: 10000 // In milliseconds
+  }
+})
+```
+
 ## Versioning
 Vibe.js is developed using [Semantic Versioning](http://semver.org). Releases will be numbered with the format `<major>.<minor>.<patch>` with the following guidelines:
 
