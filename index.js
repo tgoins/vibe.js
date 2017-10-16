@@ -248,7 +248,7 @@ exports.run = (opts) => {
   login()
 }
 
-if(cfg.voiceChannelId && cfg.textChannelId) {
+if(cfg.serverId !== '') {
   login()
 }
 
