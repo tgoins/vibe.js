@@ -25,6 +25,7 @@ module.exports = {
   requiredRoleId: '',
   // Set a custom playing message
   customPlayingMessage: 'Vibe.js | The joy of music.',
+  // Sets karaoke mode, which, when enabled, will cause any song searched to return the karaoke version for karaoke night!
   karaokeModeEnabled: false,
 
   // If this option is enabled, the bot will delete the message that triggered it, and its own
