@@ -13,6 +13,7 @@
 ## Requirements
 - Linux
 - NodeJS 6.0+
+- ffmpeg `sudo apt-get install ffmpeg`
 
 ## Installation
 > Npm module support coming soon! Not yet implemented.

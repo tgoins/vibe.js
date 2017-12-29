@@ -66,4 +66,10 @@ notify "Installing bot dependencies"
 cd /vagrant/
 npm install
 
+if ! which ffmpeg &> /dev/null; then
+  sudo apt-get update -y
+  sudo apt-get upgrade -y
+  sudo apt-get install ffmpeg -y
+fi
+
 notify "Provisioning Complete!"
