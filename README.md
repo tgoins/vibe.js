@@ -1,3 +1,6 @@
+# Deprecation Notice
+This project has been deprecated due to my new superior bot, [Nightwatch](https://discordapp.com/api/oauth2/authorize?client_id=465260354126086144&permissions=8&scope=bot). Nightwatch has music and much more! ...It's also much more reliable, performant, and scalable.
+
 # Vibe.js [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![JavaScript Style Guide][standard-image]][standard-url]
 > A simple music bot for Discord
 
